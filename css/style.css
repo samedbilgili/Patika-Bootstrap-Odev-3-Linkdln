@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    background-color: #f3f2ef;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar form.input {
+    background-color: #eef3f8;
+    border-radius: 0.4rem;
+}
+
+.navbar form.input input {
+    border: none;
+    background-color: #eef3f8;
+}
+
+.navbar form.input input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .nav-item {
+    width: 100px;
+    height: auto;
+}
+
+.navbar .nav-item a {
+    color: gray !important;
+}
+
+.navbar .nav-item:hover {
+    border-bottom: solid black 2px;
+    color: black !important;
+}
+
+.navbar .nav-item.active {
+    border-bottom: solid black 2px;
+    color: black !important;
+}
+
+.navbar .nav-item.active a {
+    color: black !important;
+}
+
+.navbar .nav-item i {
+    font-size: 20px;
+}
+
+.navbar .nav-item span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+section .leftPanel .row {
+    background-color: white;
+}
+
+section .leftPanel .row .col {
+    margin-top: -30px;
+}
+
+section .leftPanel .bg {
+    background-image: url("https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq");
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 56.25px;
+    margin: 0 -12px 0;
+}
+
+section .leftPanel img.logo {
+    width: 100px;
+}
+
+section .mainPanel .card-header {
+    background-color: #fff;
+}
+
+section .rightPanel .card-header {
+    background-color: #fff;
+    border: none;
+}
+
+section .rightPanel .card-header i {
+    color: rgba(0, 0, 0, 0.568);
+}
+
+section .rightPanel .card-header span {
+    font-weight: 500;
+    color: rgb(0 0 0 / 90%);
+}
+
+section .mainPanel .social-button {
+    border-top: solid #e2e2e2 1px;
+}
+
+section .mainPanel .social-button a {
+    color: gray;
+}
+
+section .mainPanel .social-button i {
+    font-size: 30px;
+    color: gray;
+    margin-right: 1rem;
+}
+
+section .mainPanel .comments {
+    color: #00000099;
+    padding: 10px 0px;
+}
+
+.mesaggeBox {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 280px;
+    height: 48px;
+}
